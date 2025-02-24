@@ -9,7 +9,7 @@
 		"predeploy": "npm run export",
 		"deploy": "gh-pages -d out"
 	},
-	"homepage": "https://fbittq01.github.io/portfolio",
+	"homepage": "https://fbittq01.github.io/port",
 	"dependencies": {
 		"@fontsource/fira-code": "^4.5.12",
 		"@fontsource/inter": "^4.5.14",
