@@ -1,0 +1,27 @@
+{
+	"intro": {
+		"start": "const Manh = ( name, passion ) =>",
+		"end": "Hello, my name is",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Quang Manh.",
+		"usp": "I build meaningful experiences."
+	},
+
+	"paragraph": "I am a constantly evolving digital developer driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+
+	"buttons": {
+		"primary": {
+			"title": "Contact Me",
+			"url": "https://gitlab.com/fbittq",
+			"leaveSite": true
+		}
+	}
+}
