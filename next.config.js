@@ -3,7 +3,9 @@ module.exports = {
 	env: {
 		dir: '/',
 	},
+	output: 'export',
 	images: {
+		unoptimized: true,
 		remotePatterns: [
 			{
 				protocol: 'https',
