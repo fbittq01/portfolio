@@ -99,18 +99,11 @@
 			flex-grow: 1;
 			flex-shrink: 1;
 			position: relative;
-
+			aspect-ratio: 3/4;
 			img {
 				height: 100%;
 				width: auto;
-				@supports (aspect-ratio: 3/4) {
-					aspect-ratio: 3/4;
-				}
-				@supports not (aspect-ratio: 3/4) {
-					// Fallback for Safari: set width to 100% and auto height to preserve ratio if possible.
-					width: 100%;
-					height: auto;
-				}
+				aspect-ratio: 3/4;
 				object-fit: cover;
 				border-radius: 2rem;
 			}
@@ -145,7 +138,7 @@
 			}
 
 			.image {
-				padding: 1rem;
+				// padding: 1rem;
 				&.technicalSvg {
 					position: absolute;
 					top: 50%;
